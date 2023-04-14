@@ -1,7 +1,7 @@
 package com.test.lambdacrud.controller;
 
 import com.test.lambdacrud.dto.UserDTO;
-import com.test.lambdacrud.entity.User;
+import com.test.lambdacrud.model.User;
 import com.test.lambdacrud.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,15 +1,8 @@
 package com.test.lambdacrud;
 
-import com.test.lambdacrud.entity.User;
-import com.test.lambdacrud.repository.UserRepository;
-import com.test.lambdacrud.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.test.lambdacrud.lambda.Lambda;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-
-import java.util.List;
-import java.util.function.Supplier;
 
 @SpringBootApplication
 public class LambdacrudApplication {
