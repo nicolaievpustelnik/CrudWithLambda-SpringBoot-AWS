@@ -1,5 +1,6 @@
 package com.test.lambdacrud.repository;
 
+import com.test.lambdacrud.dto.UserDTO;
 import com.test.lambdacrud.model.User;
 import org.socialsignin.spring.data.dynamodb.repository.EnableScan;
 import org.springframework.data.repository.CrudRepository;
@@ -10,5 +11,9 @@ import org.springframework.stereotype.Repository;
 public interface UserRepository extends CrudRepository<User, String> {
 
     boolean existsByName(String name);
+
+    boolean existsById(String id);
+
+    void deleteById(String id);
 
 }
