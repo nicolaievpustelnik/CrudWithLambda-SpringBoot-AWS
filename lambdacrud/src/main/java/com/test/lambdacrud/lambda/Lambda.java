@@ -17,7 +17,6 @@ import java.util.Optional;
 
 public class Lambda implements RequestStreamHandler {
 
-
     private String DYNAMO_TABLE = "user";
 
     @SuppressWarnings("unchecked")
@@ -28,6 +27,7 @@ public class Lambda implements RequestStreamHandler {
         BufferedReader reader = new BufferedReader(new InputStreamReader(input));
         JSONParser parser = new JSONParser();
         JSONObject responseObject = new JSONObject();
+
         JSONObject responseBody = new JSONObject();
 
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.defaultClient();
