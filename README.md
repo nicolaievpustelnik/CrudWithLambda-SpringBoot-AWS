@@ -2,6 +2,10 @@
 
 Crud created with Spring Boot to manage users.
 
+![Img1](images/img1.png)
+![Img2](images/img2.png)
+![Img3](images/img3.png)
+
 ## Project Configuration
 
 To run the project, follow these steps:
